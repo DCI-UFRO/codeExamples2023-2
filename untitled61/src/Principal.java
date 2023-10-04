@@ -24,8 +24,15 @@ public class Principal {
 
         System.out.println(Arrays.toString(equipo));
 
+        Equipo equipo1 = new Equipo("e1");
+        Equipo equipo2 = new Equipo("e2");
+        equipo1.addPokemon(equipo[0]);
+        batalla(equipo1,equipo2);
 
 
+    }
+
+    private static void batalla(Equipo equipo1, Equipo equipo2) {
 
     }
 }
